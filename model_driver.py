@@ -13,7 +13,6 @@ import pymysql
 # This class holds all the queries and data cleaning functionality for each question.
 class Query:
     def __init__(self):
-        self.config = pymysql.connect("localhost", "root", "*light*Bright", "IMBD")
         self.cursor = self.config.cursor()
 
     # This will execute query 1 and call the Pearson's Correlation function
@@ -245,4 +244,3 @@ if __name__ == '__main__':
     q.query_4()
     q.query_5()
     q.end_query()
-
