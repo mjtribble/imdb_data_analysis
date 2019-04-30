@@ -11,8 +11,9 @@ from scipy import stats
 from sklearn import model_selection
 
 
-# This class runs linear regression model on the gross sales and budget of films from the imdb database using this
-# tutorial http://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/
+# This class runs linear regression model on the gross sales and
+# budget of films from the imdb database using this
+# http://bigdata-madesimple.com/how-to-run-linear-regression-in-python-scikit-learn/
 from sklearn.metrics import accuracy_score
 
 
